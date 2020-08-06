@@ -1,0 +1,162 @@
+@import "reset.css";
+
+a {
+  color: #505050;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.bottom-left-container {
+  padding-left: 20px;
+}
+
+.bottom-right-container {
+  padding-right: 20px;
+}
+
+.button {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  color: #505050;
+  height: 36px;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 132px;
+  border-style: none;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:hover {
+  color: black;
+  box-shadow: 0px 2px #f2f2f2;
+  border: 0.5px solid gray;
+}
+
+.button-container {
+  padding-top: 32px;
+}
+
+.logo {
+  display: block;
+  height: 92px;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 32px;
+  width: 272px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  color: #505050;
+  font-size: 14px;
+  left: 0;
+  line-height: 5px;
+  position: fixed;
+  height: 40px;
+  width: 100%;
+}
+
+.footer .nav-link {
+  padding: 18px 14px 0px 12px;
+  text-decoration: none;
+}
+
+.mglass {
+  height: 20px;
+  width: 20px;
+  color: #9aa0a6;
+  fill: #9aa0a6;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav-bar {
+  display: block;
+  font-size: 12.5px;
+  margin-top: 24px;
+  margin-right: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-bar .nav-link {
+  padding: 0px 8px 0px 8px;
+  text-decoration: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.top-left-container {
+  padding-left: 16px;
+}
+
+.top-right-container {
+  padding-right: 16px;
+}
+
+.search-form {
+  text-align: center;
+}
+
+.search-bar {
+  align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 90px;
+  display: grid;
+  grid-template-columns: 35px 45px;
+  margin: auto;
+  text-align: center;
+  height: 45px;
+  width: 575px;
+}
+
+.search-bar:hover {
+  box-shadow: 0px 0px 10px -6px rgb(45, 45, 45);
+}
+
+.search-text {
+  height: 2em;
+  width: 36em;
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+}
+
+.search-text:focus {
+  outline: 0;
+}
+
+.sign-in {
+  background-color: #4386f8;
+  border-radius: 2.5px;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px 8px 12px;
+}
+
+.sign-in:hover {
+  text-decoration: none;
+}
